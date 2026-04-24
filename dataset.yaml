@@ -1,0 +1,9 @@
+# Use the absolute path to where the script actually saved the data
+path: /Users/maheshvellogi/Downloads/Insulator_Project/yolo_insulator_project/data
+train: images/train
+val: images/val
+
+# Classes
+names:
+  0: normal_insulator
+  1: defective_insulator

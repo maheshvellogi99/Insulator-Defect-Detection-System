@@ -1,0 +1,13 @@
+# Dataset configuration for Insulator Defect Detection v2
+# Updated with 3 classes and corrected data paths
+
+path: /Users/maheshvellogi/Downloads/Insulator_Project/yolo_insulator_project/data_v2
+train: images/train
+val: images/val
+test: images/test
+
+# 3 Classes (Fixed — v1 had all labels as class 0 due to path bug)
+names:
+  0: normal_insulator
+  1: defective_insulator
+  2: defect_region
